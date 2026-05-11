@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmy</title>
+    <link rel="stylesheet" href="pierwszy.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎬 Super filmy</h1>
+    </header>
+
+    <div class="kontener">
+
+        <nav aria-label="Panel wyszukiwania i sortowania">
+
+            <h2>🔍 Wyszukiwarka</h2>
+
+            <label for="name">Nazwa filmu</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Wpisz nazwę filmu"
+            >
+
+            <button id="search-btn" type="button">
+                Wyszukaj
+            </button>
+
+            <hr>
+
+            <h2>↕ Sortowanie</h2>
+
+            <select id="sort">
+                <option value="default">Domyślnie</option>
+                <option value="year_desc">Rok ↓</option>
+                <option value="year_asc">Rok ↑</option>
+                <option value="rating_desc">Ocena ↓</option>
+                <option value="rating_asc">Ocena ↑</option>
+                <option value="title_asc">Tytuł A-Z</option>
+                <option value="title_desc">Tytuł Z-A</option>
+            </select>
+
+        </nav>
+
+        <main class="glowny">
+
+            <section class="intro">
+                <h2>Witaj w świecie kina 🎬</h2>
+
+                <p>
+                    Ten portal został stworzony z myślą o miłośnikach filmów.
+                    Znajdziesz tutaj miejsce do odkrywania i przeglądania ciekawych produkcji.
+                </p>
+
+                <p>
+                    Baza zawiera zarówno klasyki, jak i nowoczesne hity z różnych gatunków.
+                </p>
+
+                <h3>Co znajdziesz na stronie?</h3>
+
+                <ul>
+                    <li>🎥 Opisy filmów</li>
+                    <li>📅 Rok produkcji</li>
+                    <li>⏱ Czas trwania</li>
+                    <li>🔍 Wyszukiwarkę</li>
+                    <li>⭐ Sortowanie i prosty interfejs</li>
+                </ul>
+
+                <h3>Dlaczego powstał ten portal?</h3>
+
+                <p>
+                    Celem było stworzenie prostego i czytelnego katalogu filmów.
+                    Strona będzie rozwijana o nowe funkcje.
+                </p>
+            </section>
+
+        </main>
+
+    </div>
+    <footer>
+        <p>Pracę wykonał: <strong></strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
